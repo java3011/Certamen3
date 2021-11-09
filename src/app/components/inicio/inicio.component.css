@@ -1,0 +1,28 @@
+div {
+  border: 2px solid #153fbd;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+div h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+div #a1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+div #b1 {
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 25px;
+  font-size: 16px;
+}
+
+div #c1 {
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 25px;
+  font-size: 16px;
+}
+/*# sourceMappingURL=inicio.component.css.map */

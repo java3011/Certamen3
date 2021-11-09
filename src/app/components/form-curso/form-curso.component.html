@@ -1,0 +1,89 @@
+<div *ngIf="!activarMen">
+    <form [formGroup]="formcurso" (ngSubmit)="ValidarDatos()" novalidate>
+        <div>
+            <h2 class="mt-4">
+                <span>Crear Curso</span>
+            </h2>
+            <ul class="mt-4">
+                <li>
+                    <label for="nombre" class="col-sm-2 col-form-label" id="nom">Nombre</label>
+                    <input id="nombre" formControlName="nombre" type="text">
+                    <div *ngIf="formcurso.controls['nombre'].invalid && (formcurso.controls['nombre'].dirty || formcurso.controls['nombre'].touched)" class="alert alert-danger">
+                        Nombre requerido.
+                    </div>
+                </li>
+                <div id="caja" class="mb-4">
+                    <div>
+                        <li>
+                            <label for="nota1 " class="col-sm-2 col-form-label " id="not">Nota 1:</label>
+                            <input id="nota1 " formControlName="nota1 " type="number ">
+
+                        </li>
+                        <li>
+                            <label for="nota2 " class="col-sm-2 col-form-label " id="not">Nota 2:</label>
+                            <input id="nota2 " formControlName="nota2 " type="number ">
+
+                        </li>
+                        <li>
+                            <label for="nota3 " class="col-sm-2 col-form-label " id="not">Nota 3:</label>
+                            <input id="nota3 " formControlName="nota3 " type="number ">
+
+                        </li>
+                        <li>
+                            <label for="nota4 " class="col-sm-2 col-form-label " id="not">Nota 4:</label>
+                            <input id="nota4 " formControlName="nota4 " type="number ">
+
+                        </li>
+                        <li>
+                            <label for="nota5 " class="col-sm-2 col-form-label " id="not">Nota 5:</label>
+                            <input id="nota5 " formControlName="nota5 " type="number ">
+
+                        </li>
+                    </div>
+                    <div>
+                        <li>
+                            <label for="porce1 " class="col-sm-2 col-form-label " id="not2">Porcentaje:</label>
+                            <input id="porce1 " formControlName="porce1 " type="number ">
+
+                        </li>
+                        <li>
+                            <label for="porce2 " class="col-sm-2 col-form-label " id="not2">Porcentaje:</label>
+                            <input id="porce2 " formControlName="porce2 " type="number ">
+
+                        </li>
+                        <li>
+                            <label for="porce3 " class="col-sm-2 col-form-label " id="not2">Porcentaje:</label>
+                            <input id="porce3 " formControlName="porce3 " type="number ">
+
+                        </li>
+                        <li>
+                            <label for="porce4 " class="col-sm-2 col-form-label " id="not2">Porcentaje:</label>
+                            <input id="porce4 " formControlName="porce4 " type="number ">
+
+                        </li>
+                        <li>
+                            <label for="porce5 " class="col-sm-2 col-form-label " id="not2">Porcentaje:</label>
+                            <input id="porce5 " formControlName="porce5 " type="number ">
+
+                        </li>
+                    </div>
+                </div>
+
+                <li id="boton">
+                    <button type="submit " class="mt-2 " [disabled]="!formcurso.valid ">Crear</button>
+
+                </li>
+
+            </ul>
+        </div>
+    </form>
+    <div id="buton" class="mt-5">
+        <button type="reset ">Cancelar</button>
+    </div>
+
+</div>
+
+
+<div *ngIf="activarMen " class="mt-4 ">
+    Sus datos fueron agregados con éxito.
+</div>

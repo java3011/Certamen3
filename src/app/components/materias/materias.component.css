@@ -1,0 +1,14 @@
+ul {
+  list-style: none;
+}
+
+ul li {
+  border: 1.5px solid #000;
+  margin-left: -150px;
+  width: 600px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+/*# sourceMappingURL=materias.component.css.map */

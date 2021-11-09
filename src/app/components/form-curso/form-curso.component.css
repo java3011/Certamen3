@@ -1,0 +1,35 @@
+ul {
+  list-style: none;
+}
+
+ul #nom {
+  margin-left: -45px;
+}
+
+ul #nombre {
+  margin-left: -100px;
+  padding-right: 312px;
+}
+
+ul #boton {
+  color: red;
+}
+
+div {
+  float: left;
+}
+
+div #not {
+  margin-left: -45px;
+  width: 400px;
+}
+
+div #not2 {
+  margin-left: -270px;
+  width: 700px;
+}
+
+#buton {
+  margin-left: 27px;
+}
+/*# sourceMappingURL=form-curso.component.css.map */

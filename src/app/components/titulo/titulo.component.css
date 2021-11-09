@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+}
+
+#al {
+  border: 1px solid #000;
+  margin-inline: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #000;
+}
+
+#bl {
+  border: 1px solid #000;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #e4e4e4;
+  color: #000;
+}
+
+#cl {
+  border: 1px solid #000;
+  margin-inline: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #e4e4e4;
+  color: #000;
+}
+/*# sourceMappingURL=titulo.component.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,CAAC;EACC,UAAU,EAAE,IAAI;CAUnB;;AAXD,AAEI,EAFF,CAEE,EAAE,CAAC;EACC,MAAM,EAAE,gBAAgB;EACxB,WAAW,EAAE,MAAM;EACnB,KAAK,EAAE,KAAK;EACZ,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;EACpB,UAAU,EAAE,IAAI;EAChB,YAAY,EAAE,IAAI;CACrB",
+    "sources": [
+        "materias.component.scss"
+    ],
+    "names": [],
+    "file": "materias.component.css"
+}
